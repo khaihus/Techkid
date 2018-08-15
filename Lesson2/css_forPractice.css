@@ -1,0 +1,48 @@
+nav.menu,div.submenu {
+    text-align: center;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    font-weight: bold;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+/* ---------------------------------------------------------------- */
+/*                   Properties for all span tag                    */
+
+span {
+    position: relative;
+    display: inline-block;
+    /* text-align: center; */
+    /* padding: 15px 50px 15px 50px; */
+    height: 30px;
+    width: 150px;
+    line-height: 30px;
+}
+span:hover {
+    background-color: #9CD08F;
+    color: #FFFFFF;
+}
+
+/* ---------------------------------------------------------------- */
+div.submenu {
+    display: none;
+    position: absolute;
+    z-index: -1; 
+}
+
+div.submenu .submenu {
+    position: absolute;
+    display: none;
+    left: 150px;
+    top: 0;
+    z-index: -1; /* didn't work */
+}
+
+/* ---------------------------------------------------------------- */
+span:hover>div.submenu{
+    display: block;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
