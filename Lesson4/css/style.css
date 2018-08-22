@@ -1,0 +1,37 @@
+.header {
+    background-color: #0000ff;
+}
+
+.nav {
+    background-color: #800080;
+}
+
+.main {
+    background-color: #ffd700;
+    width: 60%;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    float: left;
+    height: 450px;
+    /* margin-bottom:auto; */
+    overflow: auto;
+}
+
+.aside {
+    background-color: #808080;
+    float: left;
+    /* clear: right; */
+    width: 40%;
+    height: 450px;
+    /* height: auto; */
+    /* margin-left: auto;
+    margin-bottom:auto;  */
+    overflow: auto;
+}
+
+.footer {
+    background-color: #00ffff;
+    padding: 20px;
+    width: auto;
+    overflow: auto;
+}
