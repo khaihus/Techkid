@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>App Web</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/ask.html">Hỏi nhanh</a>
+        <a href="/">Đáp gọn</a>
+    </nav>
+    <h1> Hãy hỏi cộng đồng 1 câu hỏi đúng / sai hoặc có / không </h1>
+    <!-- action = địa chỉ  
+        POST: gửi dữ liệu  
+        GET: lấy dữ liệu (như thanh search của gg) -->
+    <form action="http://localhost:6969/ask" method="POST">
+        <textarea maxlength="200" id="questionInput" name="question" cols="30" rows="10"></textarea>
+
+        <span> còn <span id="count">200</span> / 200 kí tự </span>
+        <button type="submit">Gửi</button>
+    </form>
+    <script src="./js/ask.js"></script>
+</body>
+
+</html>
