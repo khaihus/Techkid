@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App web</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/js/ask.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="/ask.html">Hỏi nhanh</a>
+    <a href="/">Đáp gọn</a>
+  </nav>
+  <h1>Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không</h1>
+  <form action="http://localhost:6969/ask" method="POST">
+    <textarea maxlength="200" id="questionInput" name="question" cols="30" rows="10"></textarea>
+    <span>còn <span id="count">200</span>/200 ký tự</span>
+    <input type="submit" value="Gửi" />
+  </form>
+</body>
+
+</html>

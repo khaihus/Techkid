@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App web</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/js/main.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="/ask.html">Hỏi nhanh</a>
+    <a href="/">Đáp gọn</a>
+  </nav>
+  <div class="question">
+    <h1 id="questionContent"></h1>
+    <div class="answer">
+      <div>
+        <button data-id="" data-answer="no" class="answer">Sai / Không / Trái</button>
+        <button data-id="" data-answer="yes" class="answer">Đúng / Có / Phải</button>
+      </div>
+      <div>
+        <button id="viewQuestionInfo">Xem kết quả</button>
+        <a href="/"><button>Câu hỏi khác</button></a>
+      </div>
+    </div>
+    <div class="questionInfo">
+      <div>
+        <span id="vote"></span> vote
+      </div>
+      <div>
+        Vote yes: <span id="voteYes"></span>%
+      </div>
+      <div>
+        Vote no: <span id="voteNo"></span>%
+      </div>
+      <div>
+        <a href="/"><button>Câu hỏi khác</button></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

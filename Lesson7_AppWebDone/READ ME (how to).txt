@@ -1,0 +1,14 @@
+Cài tất cả thư viện node_modules
+
+Mở MongoDB: tìm file MongoD.exe (trong ổ D)
+Mở 2 cmd
+
+1. Khởi động server:
+
+    cmd vào thư mục server: node ./server.js
+
+2. Khởi tạo kết nối server-client
+
+    cmd vào thư mục client: http-server
+
+3. 
