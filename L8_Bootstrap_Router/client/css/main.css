@@ -1,0 +1,28 @@
+.questionInfo {
+    display: none;
+}
+
+/* properties for font number of percent */
+#question_result_yes {
+  padding: 7px 0;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+}
+#question_result_no {
+  padding: 7px 0;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+}
+.result_bar {
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+}
+.question_result_no {
+  background: #d9534f;
+}
+.question_result_yes {
+  background: #337ab7;
+}
